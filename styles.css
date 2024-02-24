@@ -142,7 +142,7 @@ height to be the default one and not fit to screen height */
     transition: transform 0.2s ease-in-out; /* For smooth grow effect */
  }
  
- .image-container img:hover, .note-container img:hover, .blacklisted img:hover {
+img.post-preview-image:hover {
     transform: scale(1.05); /* Grow slightly on hover */
 } 
  
