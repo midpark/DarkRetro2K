@@ -1,0 +1,178 @@
+/*
+DarkRetro2K
+Creator: Yooyooko
+
+NOTE: Color configurations are in the body section of this css code.
+The height of the post preview image is set to 40vh.
+Use a CSS editor with color previews and pickers like VS code for easier color scheme editing.
+Turn off dark-mode extensions such as DarkReader when using this theme.
+*/
+
+body {
+   /* Colorful stuff */ 
+   --body-background-color: #061203;
+   --notice-info-background: #163f0a;
+   --notice-info-border-color: #349619;
+   --form-button-background: #091b04;
+   --form-button-hover-background: #17440b;
+   --form-button-text-color: #baffa7;
+   --form-button-border-color: #88ab7f;
+   --form-button-active-background: #7cb56c;
+   --post-artist-commentary-container-background: #173010;
+   --post-artist-commentary-container-border-color: #88ab7f;
+   --post-search-notice-background: #173010;
+   --post-notice-border-color: var(--post-artist-commentary-container-border-color);
+   --post-pending-notice-background: #1a4f0c;
+   --post-resized-notice-background: #15390c;
+   --link-color: #9eff84;
+   --link-hover-color: #ebffe5;
+   --post-tooltip-background-color: var(--post-artist-commentary-container-background);
+   --post-tooltip-header-background-color: var(--post-tooltip-background-color);
+   --post-tooltip-border-color: var(--notice-info-border-color);
+   --box-shadow-color: #647e5c;
+   --subnav-menu-border-b: #468335;
+   --subnav-menu-border-t: #2ed400;
+   --subnav-menu-grad-b: #16300e;
+   --subnav-menu-grad-t: #135b00;
+   --textbox-grad-b: #040b02;
+   --textbox-grad-t: #132b0d;
+   --chip-primary-background-color: #0f2809;
+   --default-border-color: #2f6220;
+   --autosuggestions-box-background: #000000;
+   --responsive-menu-background-color: #16300e;
+
+    /* Other stuff */
+    --text-color: white;
+    --form-input-text-color: var(--text-color);
+    --header-color: #d1d1d1;
+    --autocomplete-border-color: var(--notice-info-border-color);
+    --textbox-background:black;
+    --button-hover-color: white;
+    --general-tag-color: #80c2ff;
+    --copyright-tag-color: #ebb9ff;
+ }
+
+ .ui-autocomplete.ui-widget {
+   background-color: var(--autosuggestions-box-background);
+ }
+ 
+ #clickadu {
+    display:none;
+ }
+ 
+ #exoclick {
+    display:none;
+ }
+ 
+ a {
+   transition: color 0.15s ease-in;
+ }
+
+ option:hover {
+   background-color:var(--default-border-color);
+ }
+ 
+ header#top menu#subnav-menu {
+    background: linear-gradient(0deg, var(--subnav-menu-grad-b) 0%, var(--subnav-menu-grad-t) 100%);
+    border-bottom: 1px solid var(--subnav-menu-border-b);
+    border-top: 1px solid var(--subnav-menu-border-t);
+    box-sizing: border-box;
+ }
+ 
+ header#top menu.main li.current a {
+   background: var(--subnav-menu-grad-t);
+   border: 1px solid var(--subnav-menu-border-t);
+   border-bottom: 1px solid var(--subnav-menu-grad-t);
+   border-radius: 3px 3px 0px 0px;
+ }
+ 
+ body a.user-member {
+     color: var(--link-color);
+ }
+ 
+ input,select,textarea {
+    border-radius: 4px;
+    border: 1px solid var(--notice-info-border-color);
+    background: linear-gradient(0deg, var(--textbox-grad-b), var(--textbox-grad-t));
+    background-color: var(--textbox-background);
+ }
+
+ input:focus-visible, select:focus-visible, textarea:focus-visible {
+    outline:1px solid var(--subnav-menu-border-t);
+ }
+
+ input,select,textarea {
+   border-radius: 4px;
+   border: 1px solid var(--notice-info-border-color);
+   background: linear-gradient(0deg, var(--textbox-grad-b), var(--textbox-grad-t));
+   background-color: var(--textbox-background);
+}
+ 
+ form.quick-search-form input {
+    background: linear-gradient(0deg, var(--textbox-grad-b), var(--textbox-grad-t));
+ }
+ 
+/* Remove all .fit-width overrides if you want the post preview 
+height to be the default one and not fit to screen height */
+
+ .fit-width {
+   height:60vh !important; 
+   width: auto !important;
+ }
+
+ @media screen and (max-width: 660px)  {
+    .fit-width {
+        height:auto !important;
+    }
+
+    header#top menu.main li.current a {
+      border: 1px solid var(--subnav-menu-border-t);
+      border-radius: 3px;
+    }
+
+ }
+ 
+ .image-container img, .note-container img, .blacklisted img {
+    border-radius:5px;
+    border: 1px solid var(--notice-info-border-color);
+    box-shadow: 0px 0px 25px var(--box-shadow-color);
+    height: calc(49%);
+    width: auto;
+ }
+ 
+ .ui-button {
+   transition: all 0.15s ease-in;
+ }
+ 
+ .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
+   color:var(--button-hover-color);
+ }
+
+ div#c-posts div#a-show #artist-commentary {
+    background: linear-gradient(0deg, var(--notice-info-background), var(--textbox-grad-t));
+ }
+
+ input#tags {
+    background:none;
+    background-color:transparent;
+    border:none;
+    margin: 3px;
+ }
+
+ input#tags:focus-visible {
+   border:none;
+   background-color:black;
+   box-shadow: 0px 0px 25px var(--box-shadow-color);
+   outline: none;
+   background-color:transparent;
+   transition: box-shadow 0.1s linear;
+ }
+
+ button#search-box-submit {
+   border:none;
+ }
+
+ #search-box-form {
+   border: 1px solid var(--notice-info-border-color);
+   border-radius: 5px;
+ }
