@@ -177,3 +177,12 @@ height to be the default one and not fit to screen height */
    border: 1px solid var(--notice-info-border-color);
    border-radius: 5px;
  }
+
+form.simple_form div.input.radio_buttons.radio-button-group input:checked~label, form.simple_form div.input.radio_buttons.radio-button-group input:checked~label:hover {
+   background-color:var(--subnav-menu-grad-t);
+}
+
+form.simple_form div.input.radio_buttons.radio-button-group .radio label:hover {
+   background-color: var(--post-pending-notice-background);
+   border-color:transparent;
+}
