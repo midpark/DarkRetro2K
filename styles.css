@@ -1,6 +1,6 @@
 /*
 DarkRetro2K
-Version: 0.91 (2024-02-24)
+Version: 0.92 (2024-02-24)
 Creator: Yooyooko
 
 NOTE: Color configurations are in the body section of this css code.
@@ -190,4 +190,12 @@ form.simple_form div.input.radio_buttons.radio-button-group input:checked~label,
 form.simple_form div.input.radio_buttons.radio-button-group .radio label:hover {
    background-color: var(--post-pending-notice-background);
    border-color:transparent;
+}
+
+.file-upload-component .dropzone-container {
+   background: linear-gradient(0deg,var(--post-resized-notice-background),var(--post-pending-notice-background));
+}
+
+.card, .card-elevated { 
+   background-color: var(--chip-primary-background-color);
 }
