@@ -117,7 +117,7 @@ body {
 height to be the default one and not fit to screen height */
 
  .fit-width {
-   height:60vh !important; 
+   max-height:60vh !important; 
    width: auto !important;
  }
 
