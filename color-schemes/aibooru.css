@@ -1,3 +1,4 @@
+body {
    --body-background-color: #061203;
    --notice-info-background: #163f0a;
    --notice-info-border-color: #349619;
@@ -28,3 +29,4 @@
    --default-border-color: #2f6220;
    --autosuggestions-box-background: #000000;
    --responsive-menu-background-color: #16300e;
+}
