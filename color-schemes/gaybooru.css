@@ -1,0 +1,48 @@
+body {
+   --body-background-color: #00120f;
+   --notice-info-background: #003f38;
+   --notice-info-border-color: #009684;
+   --form-button-background: #001b17;
+   --form-button-hover-background: #00443c;
+   --form-button-text-color: #a7fff4;
+   --form-button-border-color: #7faba5;
+   --form-button-active-background: #6cb5ac;
+   --post-artist-commentary-container-background: #10302d;
+   --post-artist-commentary-container-border-color: #7faba5;
+   --post-search-notice-background: #10302d;
+   --post-notice-border-color: var(--post-artist-commentary-container-border-color);
+   --post-pending-notice-background: #0c4f47;
+   --post-resized-notice-background: #0c3933;
+   --link-color: #84fff0;
+   --link-hover-color: #e5fffc;
+   --post-tooltip-background-color: var(--post-artist-commentary-container-background);
+   --post-tooltip-header-background-color: var(--post-tooltip-background-color);
+   --post-tooltip-border-color: var(--notice-info-border-color);
+   --box-shadow-color: #5c7e7a;
+   --subnav-menu-border-b: #358379;
+   --subnav-menu-border-t: #00d4bb;
+   --subnav-menu-grad-b: #0e302c;
+   --subnav-menu-grad-t: #005b50;
+   --textbox-grad-b: #020b0a;
+   --textbox-grad-t: #0d2b27;
+   --chip-primary-background-color: #092824;
+   --default-border-color: #20625b;
+   --autosuggestions-box-background: #000000;
+   --responsive-menu-background-color: #0e302c;
+}
+
+header#top #app-name-header #app-logo img {
+   content: url("https://cdn.discordapp.com/attachments/989202799004901459/1211970115156058142/image.png?ex=65f02220&is=65ddad20&hm=33d3b41dd2a22c1bb682adc48edb4dbe3338f244cdef5a7f7addc7f62b106252&")
+}
+
+a#app-name {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+a#app-name:after {
+    content: "Gaybooru";
+    display: block;
+    line-height: initial;
+    text-indent: 0;
+}
