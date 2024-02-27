@@ -1,3 +1,4 @@
+body {
 --body-background-color: #120a0f;
 --notice-info-background: #3f2536;
 --notice-info-border-color: #965781;
@@ -28,6 +29,7 @@
 --default-border-color: #62204c;
 --autosuggestions-box-background: #000000;
 --responsive-menu-background-color: #300e25;
+}
 
    header#top #app-name-header img {
         display:none;
