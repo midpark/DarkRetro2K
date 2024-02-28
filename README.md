@@ -9,5 +9,7 @@ Example:
 
 `
 @import url('https://ynnysh.github.io/DarkRetro2K/styles.css');
+`
+`
 @import url('https://ynnysh.github.io/DarkRetro2K/color-schemes/danbooru.css');
 `
