@@ -209,3 +209,11 @@ form.simple_form div.input.radio_buttons.radio-button-group .radio label:hover {
 #page-footer {
    display:none;
 }
+
+table.striped tr:nth-child(even) {
+   background: var(--form-button-background);
+}
+
+table.striped tbody tr {
+   border-color: var(--default-border-color);
+}
