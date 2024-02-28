@@ -205,3 +205,7 @@ form.simple_form div.input.radio_buttons.radio-button-group .radio label:hover {
 .card, .card-elevated { 
    background-color: var(--chip-primary-background-color);
 }
+
+#page-footer {
+   display:none;
+}
