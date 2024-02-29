@@ -30,3 +30,7 @@ body {
    --autosuggestions-box-background: #000000;
    --responsive-menu-background-color: #16300e;
 }
+
+ #clickadu, #exoclick {
+    display:none;
+ }
