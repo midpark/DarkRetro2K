@@ -31,6 +31,22 @@ body {
    --responsive-menu-background-color: #16300e;
 }
 
+header#top #app-name-header #app-logo img {
+   content: url("https://cdn.discordapp.com/attachments/1029536187666407464/1212745015546085386/image.png?ex=65f2f3cf&is=65e07ecf&hm=546d5d283d4e62a4e1857bc4fd39143c1d6d935042d8ca071a4f7311bff85d52&")
+}
+
+a#app-name {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+a#app-name:after {
+    content: "Gaybooru";
+    display: block;
+    line-height: initial;
+    text-indent: 0;
+}
+
  #clickadu, #exoclick {
     display:none;
  }
