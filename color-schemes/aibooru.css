@@ -41,7 +41,7 @@ a#app-name {
 }
 
 a#app-name:after {
-    content: "Gaybooru";
+    content: "AIBooru";
     display: block;
     line-height: initial;
     text-indent: 0;
