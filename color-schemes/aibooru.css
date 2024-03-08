@@ -47,6 +47,6 @@ a#app-name:after {
     text-indent: 0;
 }
 
- #clickadu, #exoclick {
+ #clickadu, #exoclick, #nav-ad-0 {
     display:none;
  }
