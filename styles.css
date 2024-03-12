@@ -212,11 +212,13 @@ table.striped tbody tr {
 
 a.button-primary, button.button-primary, input[type=submit].button-primary {
     background: linear-gradient(#ffffff45 0%, #ffffff11 50%, #00000000 51%), linear-gradient(var(--subnav-menu-grad-t), var(--chip-primary-background-color));
-    background-color: var(--button-primary-background-color);
+    background-color: transparent;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border: 1px solid var(--notice-info-border-color);
 }
 
 a.button-primary:hover:not([disabled]), button.button-primary:hover:not([disabled]), input[type=submit].button-primary:hover:not([disabled]) {
+    background-color:#ffffff44;
     linear-gradient(#ffffff40,#ffffff40), linear-gradient(#ffffff45 0%, #ffffff11 50%, #00000000 51%), linear-gradient(var(--subnav-menu-grad-t), var(--chip-primary-background-color)) !important;
     color:white;
 }
