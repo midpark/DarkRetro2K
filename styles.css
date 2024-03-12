@@ -217,8 +217,11 @@ a.button-primary, button.button-primary, input[type=submit].button-primary {
     border: 1px solid var(--notice-info-border-color);
 }
 
+input[type=button], input[type=submit], button {
+    background: linear-gradient(#ffffff45 0%, #ffffff11 50%, #00000000 51%), linear-gradient(var(--subnav-menu-grad-t), var(--chip-primary-background-color));
+}
+
 a.button-primary:hover:not([disabled]), button.button-primary:hover:not([disabled]), input[type=submit].button-primary:hover:not([disabled]) {
-    background-color:#ffffff44;
-    linear-gradient(#ffffff40,#ffffff40), linear-gradient(#ffffff45 0%, #ffffff11 50%, #00000000 51%), linear-gradient(var(--subnav-menu-grad-t), var(--chip-primary-background-color)) !important;
-    color:white;
+    background-color:transparent;
+    background: var(--form-button-hover-background);
 }
