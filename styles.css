@@ -145,6 +145,7 @@ img#image {
 }
  
  .ui-button {
+   background: linear-gradient(#ffffff45 0%, #ffffff11 50%, #00000000 51%), linear-gradient(var(--subnav-menu-grad-t), var(--chip-primary-background-color));
    transition: all 0.15s ease-in;
  }
  
