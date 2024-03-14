@@ -241,3 +241,15 @@ div.prose details summary {
     border-bottom: 1px solid var(--subnav-menu-grad-t);
     box-sizing: border-box;
 }
+
+.ui-widget-content {
+   /* border: 1px solid var(--subnav-menu-grad-t) !important; */
+   border: 1px solid black !important;
+   linear-gradient(180deg, var(--textbox-grad-t), var(--textbox-grad-b));
+}
+
+.ui-widget-header {
+   background: linear-gradient(180deg, var(--subnav-menu-grad-t), var(--subnav-menu-grad-b));
+   color:white;
+   border-bottom: 1px solid var(--subnav-menu-grad-t) !important;
+}
