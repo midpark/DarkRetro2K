@@ -226,3 +226,17 @@ a.button-primary:hover:not([disabled]), button.button-primary:hover:not([disable
     background-color:transparent;
     background: var(--form-button-hover-background);
 }
+
+div.prose details {
+    border-radius: 0.25rem;
+    background-color: transparent;
+    background: linear-gradient(180deg, var(--textbox-grad-t), var(--textbox-grad-b));
+    border: 1px solid var(--subnav-menu-grad-t);
+    box-sizing: border-box;
+}
+
+div.prose details summary {
+    background: linear-gradient(180deg, var(--subnav-menu-grad-t), var(--subnav-menu-grad-b));
+    border-bottom: 1px solid var(--subnav-menu-grad-t);
+    box-sizing: border-box;
+}
