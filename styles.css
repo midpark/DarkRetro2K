@@ -220,6 +220,7 @@ a.button-primary, button.button-primary, input[type=submit].button-primary {
 
 input[type=button], input[type=submit], button {
     background: linear-gradient(#ffffff45 0%, #ffffff11 50%, #00000000 51%), linear-gradient(var(--subnav-menu-grad-t), var(--chip-primary-background-color));
+    border: 1px solid var(--notice-info-border-color);
 }
 
 a.button-primary:hover:not([disabled]), button.button-primary:hover:not([disabled]), input[type=submit].button-primary:hover:not([disabled]) {
