@@ -255,6 +255,6 @@ div.prose details summary {
 }
 
 .ui-widget-overlay {
-   background: #000000
+   background: #000000;
    opacity: 0.65;
 }
