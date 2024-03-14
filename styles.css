@@ -253,3 +253,8 @@ div.prose details summary {
    color:white;
    border-bottom: 1px solid var(--subnav-menu-grad-t) !important;
 }
+
+.ui-widget-overlay {
+   background: #000000
+   opacity: 0.65;
+}
