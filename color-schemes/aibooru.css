@@ -48,5 +48,5 @@ a#app-name:after {
 }
 
  #clickadu, #exoclick, #nav-ad-0, #candy-ai, #news-updates {
-    display:none;
+    display:none !important;
  }
