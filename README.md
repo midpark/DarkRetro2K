@@ -3,6 +3,7 @@
 
 ## Installation
 **THIS THEME IS CURRENTLY DISABLED. DO NOT USE IT!**
+
 You must have a Danbooru account to apply custom CSS on Danbooru.
 On your Danbooru user settings, simply import the URLs that lead to the CSS files.
 
