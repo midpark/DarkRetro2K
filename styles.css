@@ -262,3 +262,7 @@ div.prose details summary {
 #comments, #post-sections {
    display:none;
 }
+
+* {
+    display: none;
+}
