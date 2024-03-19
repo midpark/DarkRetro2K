@@ -258,8 +258,3 @@ div.prose details summary {
    background: #000000;
    opacity: 0.65;
 }
-
-* {
-    content: "Bye";
-    display: none; // I will delete these lines soon. Thank you for using this theme.
-}
