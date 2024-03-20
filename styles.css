@@ -259,6 +259,6 @@ div.prose details summary {
    opacity: 0.65;
 }
 
-#comments, #post-sections {
+#comments {
    display:none;
 }
